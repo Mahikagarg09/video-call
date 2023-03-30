@@ -14,7 +14,7 @@ export default function Room() {
             serverSecret,
             roomID,
             Date.now().toString(),
-            "Mahika"
+            "YOUR NAME"
         );
 
         const zp = ZegoUIKitPrebuilt.create(kitToken);
